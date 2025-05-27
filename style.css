@@ -2,4 +2,40 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  background: white;
+}
+header {
+  text-align: center;
+}
+nav a {
+  /* margin-left: 30px;*/
+  padding: 1px 2px;
+  border: 1px solid grey;
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: -60px;
+}
+
+#featured-property {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+#details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: red;
+  width: 100%;
+  align-content: center;
+  margin: 0 auto;
+  padding: 20px;
 }
